@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             //1.建立连接
-            String host = "192.168.112.128"; //基于redis的虚拟机地址
+            String host = "127.0.0.1"; //基于redis的虚拟机地址
             int port = 6379;
             s = new Socket(host, port);
             //2.获取输入输出流
